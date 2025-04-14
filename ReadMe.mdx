@@ -1,4 +1,4 @@
-# Window Mesh Sync
+# Multiple Window Mesh Sync 3D Visualizer
 
 A real-time multi-window tracking and visualization system using `localStorage`, `THREE.js`, and a custom `WindowManager` class. Each browser window is represented as a 3D cube that reflects its size and position on the screen.
 
@@ -26,19 +26,17 @@ Window position & size = Cube position & size\
 Window movement = Smooth cube transitions\
 Window close = Cube disappears
 
+## Structure and Components
+- `index.html`: Entry point that sets up the HTML structure and includes the Three.js library and the main script.
+- `WindowManager.js`: Core class managing window creation, synchronization, and state management across multiple windows.
+- `main.js`: Contains the logic for initializing the 3D scene, handling window events, and rendering the scene.
+- `three.r124.min.js`: Minified version of the Three.js library used for 3D graphics rendering.
+
 ## Tech Used
 - `JavaScript`
 - `THREE.js`
 - `WebGL`
 - `localStorage` API
-
-## 📂 Project Structure
-
-├── ...
-├── index.html \
-├── script.js # Includes WindowManager and visualization logic \
-├── style.css # Basic styles if any \
-└── README.md
 
 ##  Get Started
 
@@ -52,8 +50,6 @@ Window close = Cube disappears
 
 
 ## ⚠️ Notes
-
-\- Ensure localStorage is not restricted by your browser or privacy settings.
 
 \- This project is best experienced on a desktop browser.
 
