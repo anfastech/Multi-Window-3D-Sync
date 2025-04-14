@@ -1,5 +1,7 @@
 # Multiple Window Mesh Sync 3D Visualizer
 
+![Live Demo GIF](media/MultiWindow3D.gif)
+
 A real-time multi-window tracking and visualization system using `localStorage`, `THREE.js`, and a custom `WindowManager` class. Each browser window is represented as a 3D cube that reflects its size and position on the screen.
 
 ## Features
