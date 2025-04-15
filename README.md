@@ -52,8 +52,5 @@ Window close = Cube disappears
 
 
 ## ⚠️ Notes
-
 \- This project is best experienced on a desktop browser.
-
-
 
